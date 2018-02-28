@@ -21,4 +21,6 @@ matrix.o: matrix.c matrix.h
 run: main
 	./main
 clean:
-	rm *.o *~
+	rm *.o
+	rm main
+	rm image.jpg
